@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.grid-item {
+  width: 20px;
+  height: 20px;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.miniGrid-item {
+  width: 20px;
+  height: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+#btn-start {
+  padding: 20px 45px;
+  border-radius: 5px;
+  background-color: rgb(173, 240, 240);
+  text-transform: uppercase;
+}
+
+.game-over {
+  width: 200px;
+  background-color: tomato;
+  position: absolute;
+  top: 270px;
+  left: 215px;
+  text-align: center;
+}
